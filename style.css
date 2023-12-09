@@ -40,7 +40,7 @@ section {
     text-align: center;
 }
 
-#Home .profile-img {
+#hero .profile-img {
     width: 300px;
     border-radius: 50%; /* Add this line */
 }
@@ -52,7 +52,7 @@ footer {
 
 /* Add everything below here */
 
-#Home h1 {
+#hero h1 {
     font-size: 3em;
 }
 
