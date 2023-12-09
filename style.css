@@ -19,7 +19,10 @@ header * {
     display: inline;
     height: 50px;
 }
-
+mark {
+    background-color: rgb(0, 0, 0);
+    color: rgb(226, 17, 209);
+  }
 header ul {
     padding: 0;
 }
@@ -37,7 +40,7 @@ section {
     text-align: center;
 }
 
-#hero .profile-img {
+#Home .profile-img {
     width: 300px;
     border-radius: 50%; /* Add this line */
 }
@@ -49,7 +52,7 @@ footer {
 
 /* Add everything below here */
 
-#hero h1 {
+#Home h1 {
     font-size: 3em;
 }
 
