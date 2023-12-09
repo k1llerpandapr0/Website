@@ -37,7 +37,7 @@ section {
     text-align: center;
 }
 
-Home .profile-img {
+#Home .profile-img {
     width: 300px;
     border-radius: 50%; /* Add this line */
 }
@@ -49,7 +49,7 @@ footer {
 
 /* Add everything below here */
 
-Home h1 {
+#Home h1 {
     font-size: 3em;
 }
 
