@@ -4,10 +4,8 @@
     flex-direction: column;  /* Stack elements vertically */
     gap: 15px;  /* Add space between each input-row */
     padding: 20px;
-
     margin: 0 auto;   /* Center the container */
-
-    width: 250px;
+    width: 350px;
     background-color: #ECF0F3;
     box-shadow: 18px 18px 30px #D1D9E6,-18px -18px 30px #FFF ;
     border-radius: 7.5%
@@ -32,9 +30,9 @@ label {
 input[type="number"], input[type="checkbox"] {
     text-align: left;
     margin-top: 8px;
-    margin-left: 15%;
+    margin-left: 20%;
     padding: 5px;        /* Optional: Add padding for better spacing */
-    width: 80px;        /* Set a fixed width for the inputs */
+    width: 35px;        /* Set a fixed width for the inputs */
     border-width: 2.4px;
     background-color: #ECF0F3;
     box-shadow: 18px 18px 30px #D1D9E6,-18px -18px 30px #FFF ;
@@ -49,12 +47,6 @@ input[type="number"], input[type="checkbox"] {
     font-size: 18px;
 }
 
-/* Optional: Style the submit/reset buttons */
-input[type="reset"] {
-    padding: 10px;
-    margin-top: 10px;
-    width: 50px;
-}
 
 h1 {
     margin: auto;
@@ -86,7 +78,7 @@ h1 {
     input[type="number"], input[type="checkbox"] {
         width: 80px;
         font-size: 24px;
-        margin-left: 140px;
+        margin-left: 25%;
     }
 
     .unit {
