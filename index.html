@@ -1,55 +1,46 @@
-<html> 
-  <style>
-    h1 {
-      font-family: 'Times New Roman', Times, serif; 
-      border: 2px solid rgb(53, 131, 141);
-      padding: 30px;   
-    }
-    p  {
-      color: rgb(16, 101, 180);
-      font-family: courier;
-      font-size: 260%;
-      border: 4px solid rgb(12, 1, 10);
-      margin: 50px;
-    }
-    </style>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>Sourdough Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
 
-  <head>
-    <title>Big Rats R Us</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-
-  <body> 
-    <header>
-      <nav>
-        <ul>
-            <li><a href="#hero">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-      </header>
-    <section id="hero">
-      <style>
-        body {
-          background-image: url('https://upload.wikimedia.org/wikipedia/commons/9/91/Pizza-3007395.jpg');
-          background-repeat: no-repeat;
-          background-attachment: fixed; 
-          background-size: 100% 100%;
-        }
-        </style>
-      <h1 style="color: deepskyblue;"> Bella is a Big Nerd</h1>
-      <img src="https://i.guim.co.uk/img/media/6552342ff27a5972f27fec97e8ebc9c807f893f6/0_149_5000_3000/master/5000.jpg?width=465&dpr=1&s=none">        <footer>Call Now</footer>
-    </section>
-
-    <section id="about">
-      <p><mark>Eat Halal</mark></p>
-      <img src="https://firsthandfoods.com/wp-content/uploads/2018/09/halal_highres-e1536773506739.jpg" width = 200 height = 200>
     
-    </section>
-      
-    <section id="contact">
-      <p><mark>Thank you for ordering Pizza Place, Come again soon</mark></p>
-    
-  </body>
+    <div id="calc-body">
+        <h1>Sourdough Calculator</h1>
+        <div class="input-row">
+            <label for="flour">Flour</label>
+            <input id="flour" type="number" min="0" value="500"><span class="unit"><span class="unit">g</span> 
+        </div>
+        <div class="input-row">
+            <label for="water">Water</label>
+            <input id="water" type="number" min="0" value="320"><span class="unit"><span class="unit">g</span> 
+        </div>
+        <div class="input-row">
+            <label for="starter">Sourdough Starter</label>
+            <input id="starter" type="number" min="0" value="120"><span class="unit"><span class="unit">g</span> 
+        </div>
+        <div class="input-row">
+            <label for="salt">Salt</label>
+            <input id="salt" type="number" step="0.1" min="0" value="11"><span class="unit"><span class="unit">g</span> 
+        </div>
+        <div class="input-row">
+            <label for="hydration">Hydration</label>
+            <input id="hydration" type="number" step="0.1" min="0" value="67.8"><span class="unit"><span class="unit">%</span> 
+        </div>
+        <div class="input-row">
+            <label for="ss_percent">Starter</label>
+            <input id="ss_percent" step="0.1" type="number" min="0" value="24"><span class="unit"><span class="unit">%</span> 
+        </div>
+    </div>
 
+
+    
+    <script src="script.js"></script>
+</body>
 </html>
+
+
