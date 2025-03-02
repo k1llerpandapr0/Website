@@ -23,7 +23,7 @@
 /* Style for each label */
 label {
     width: 125px;  /* Set a fixed width for labels so they align in columns */
-    font-size: 18px; /* Optional: Adjust font size for better readability */
+    font-size: 24px; /* Optional: Adjust font size for better readability */
 }
 
 /* Style for input fields */
@@ -44,7 +44,7 @@ input[type="number"], input[type="checkbox"] {
 /* Align the unit next to the input */
 .unit {
     margin-left: 0;  /* Adjust spacing between input and unit */
-    font-size: 18px;
+    font-size: 24px;
 }
 
 
