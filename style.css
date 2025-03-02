@@ -78,7 +78,6 @@ h1 {
     input[type="number"], input[type="checkbox"] {
         width: 80px;
         font-size: 24px;
-        margin-left: 25%;
         border-width: 2.4px;
     }
 
