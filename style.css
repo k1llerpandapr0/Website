@@ -1,39 +1,70 @@
-/* Mobile-first design */
+
 #calc-body {
     display: flex;
-    flex-direction: column;
-    gap: 15px;
+    flex-direction: column;  /* Stack elements vertically */
+    gap: 15px;  /* Add space between each input-row */
     padding: 20px;
-    max-width: 100%;
-    margin: 0 auto;
-    width: 100%;
+    max-width: 250px;  /* Optional: You can limit the container width */
+    margin: 0 auto;   /* Center the container */
+
+    width: 2*300px;
     background-color: #ECF0F3;
-    box-shadow: 18px 18px 30px #D1D9E6, -18px -18px 30px #FFF;
-    border-radius: 7.5%;
+    box-shadow: 18px 18px 30px #D1D9E6,-18px -18px 30px #FFF ;
+    border-radius: 7.5%
+    
 }
 
+/* Style for each label-input pair */
 .input-row {
     display: flex;
-    flex-direction: column;
-    gap: 10px;
-    width: 100%;
+    justify-content: space-between; /* Ensure label and input are spread across the row */
+    align-items: center;  /* Align items vertically */
+    width: 100%;  /* Ensure full width */
 }
 
+/* Style for each label */
 label {
-    font-size: 18px;
-    margin-bottom: 5px;
+    width: 125px;  /* Set a fixed width for labels so they align in columns */
+    font-size: 18px; /* Optional: Adjust font size for better readability */
 }
 
+/* Style for input fields */
 input[type="number"], input[type="checkbox"] {
     text-align: left;
-    margin-left: 13%;
-    padding: 8px;
-    width: 80px;
+    margin-top: 8px;
+    margin-left: 15%;
+    padding: 5px;        /* Optional: Add padding for better spacing */
+    width: 80px;        /* Set a fixed width for the inputs */
+    border-width: 2.4px;
+    background-color: #ECF0F3;
+    box-shadow: 18px 18px 30px #D1D9E6,-18px -18px 30px #FFF ;
+    font-size: 18px;
+    
+    
+}
+
+/* Align the unit next to the input */
+.unit {
+    margin-left: 0;  /* Adjust spacing between input and unit */
     font-size: 18px;
 }
 
-.unit {
-    font-size: 18px;
+/* Optional: Style the submit/reset buttons */
+input[type="reset"] {
+    padding: 10px;
+    margin-top: 10px;
+    width: 50px;
+}
+
+h1 {
+    margin: auto;
+    width: 300px;
+    text-align: center;
+    color: black;
+    border-radius: 2.5%;
+    font-weight: 500;
+    background-color: rgba(236 240 243, 0);
+    box-shadow:  12px 12px 30px #6880a7,-18px -18px 30px rgb(255, 255, 255) ;
 }
 
 /* Desktop Styles */
@@ -48,24 +79,19 @@ input[type="number"], input[type="checkbox"] {
     }
 
     label {
-        font-size: 24px;
-        width: 200px;
+        font-size: 32px;
+        width: 300px;
     }
 
     input[type="number"], input[type="checkbox"] {
-        margin-left: 10px;
         width: 80px;
         font-size: 24px;
+        margin-left: 140px;
     }
 
     .unit {
-        font-size: 24px;
+        font-size: 32px;
     }
 }
 
-/* Large Desktop or Tablets */
-@media (min-width: 1024px) {
-    #calc-body {
-        width: 800px;
-    }
-}
+
