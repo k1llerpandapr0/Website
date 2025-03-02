@@ -4,10 +4,10 @@
     flex-direction: column;  /* Stack elements vertically */
     gap: 15px;  /* Add space between each input-row */
     padding: 20px;
-    max-width: 250px;  /* Optional: You can limit the container width */
+
     margin: 0 auto;   /* Center the container */
 
-    width: 2*300px;
+    width: 250px;
     background-color: #ECF0F3;
     box-shadow: 18px 18px 30px #D1D9E6,-18px -18px 30px #FFF ;
     border-radius: 7.5%
